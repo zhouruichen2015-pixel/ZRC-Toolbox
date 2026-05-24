@@ -1,18 +1,39 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 *.pyo
 *.pyd
 .Python
 venv/
-.env
+env/
+.venv/
 dist/
 build/
+*.egg-info/
+*.egg
 *.spec
+
+# IDE
 .idea/
 .vscode/
-*.log
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+
+# Env
+.env
+.env.local
+*.local
+
+# 工具文件夹（Release 中提供）
 处理器工具/
 显卡工具/
 内存工具/
@@ -23,3 +44,7 @@ Thumbs.db
 游戏工具/
 其他工具/
 内容/
+
+# 项目特定
+logo_temp*/
+*.bak
